@@ -33,15 +33,85 @@
             <div class="box flex column">
                 <div class="title">О нас</div>
                 <div class="description">
-                    Главная цель компании - <br> </rm> сделать дни вынужденной самоизоляции максимально комфортными и безопасными
+                    Главная цель компании - <br> сделать дни вынужденной самоизоляции
+                    максимально комфортными и безопасными
                     для наших клиентов
                 </div>
             </div>
         </section>
-        <section class="page"></section>
-        <section class="page"></section>
-        <section class="page"></section>
-        <section class="page"></section>
+        <section id="slogan" class="page flex column">
+            <div class="box flex column">
+                <div class="title">Девиз компании</div>
+                <div class="description">
+                    Комфортно для Вас - <br>
+                    безопасно для общества
+                </div>
+            </div>
+        </section>
+        <section id="algorithm" class="page">
+            <div class="box flex column">
+                <div class="title">Чтобы воспользоваться услугами компании необходимо:</div>
+                <div class="description flex column">
+                    <p class="flex">
+                        <span class="flex column">
+                            <img src="assets/img/icons/data.png" alt="#">
+                            <img src="assets/img/icons/GPS.png" alt="#">
+                        </span>
+
+                        Выбрать даты и место самоизоляции
+                    </p>
+                    <p class="flex">
+                        <img src="assets/img/icons/people.png" alt="#">
+                        Выбрать количество проживающих
+                    </p>
+                    <p class="flex">
+                        <img src="assets/img/icons/camping.png" alt="#">
+                        Выбрать желаемый кемпинг, соответствующий условиям выше
+                    </p>
+                    <p class="flex">
+                        <img src="assets/img/icons/house.png" alt="#">
+                        Выбрать понравившийся дом-бочку на территории кемпинга
+                    </p>
+                    <p class="flex">
+                        <img src="assets/img/icons/set.png" alt="#">
+                        Опреденить перечень дополнительных услуг
+                    </p>
+                    <p class="flex">
+                        <img src="assets/img/icons/assept.png" alt="#">
+                        Оформить заказ
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="delimiter" class="page"></section>
+        <section id="search" class="page">
+            <div class="box flex column">
+                <div class="title">Поиск</div>
+                    <form action="#" class="search-form flex column">
+                        <label for="area" class="flex">
+                            Регион
+                            <select id="area">
+                                <option value="1">Томская область</option>
+                                <option value="2">Кемеровская область</option>
+                                <option value="3">Алтайский край</option>
+                            </select>
+                        </label>
+                        <label for="data_do" class="flex">
+                            Дата заселения
+                            <input type="date" id="data_do">
+                        </label>
+                        <label for="data_to" class="flex">
+                            Дата выселения
+                            <input type="date" id="data_to">
+                        </label>
+                        <label for="count" class="flex">
+                            Количество человек
+                            <input type="number" id="count" min="1" max="5">
+                        </label>
+                        <button class="btn">Поиск</button>
+                    </form>
+            </div>
+        </section>
         <section class="page"></section>
         <section class="page"></section>
     </main>
