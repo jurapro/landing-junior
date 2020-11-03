@@ -47,7 +47,14 @@
     color: var(--text-color);
 }
 .title {
+    padding: .5rem 1rem;
     color: var(--text-color);
+    background: linear-gradient(to right,
+    transparent 0%,
+    var(--background-header) 15%,
+    var(--background-header) 85%,
+    transparent 100%);
+    text-align: center;
 }
 .btn {
     display: block;
@@ -73,10 +80,8 @@
     box-shadow: -2rem -2rem var(--shadow-box);
 }
 #header .logo {
+    gap: 1rem;
     width: 40%;
-    background: linear-gradient(to left,transparent 10%,
-    var(--background-header) 90%, transparent);
-    text-align: center;
     transform: translate(-3rem,-1rem);
 }
 #header .logo_img {
@@ -94,3 +99,24 @@
     padding-right: 20%;
 }
 /* header style end */
+
+/* header about start */
+#about {
+    background:url("../img/background/about.jpg") no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+
+}
+#about .box {
+    align-items: center;
+    width: 50vw;
+    height: 60vh;
+    box-shadow: -2rem 2rem var(--shadow-box);
+    padding: 2rem;
+    gap: 2rem;
+}
+#about .box .title {
+    width: 60%;
+}
+/* header about end */
