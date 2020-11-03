@@ -87,35 +87,89 @@
         <section id="search" class="page">
             <div class="box flex column">
                 <div class="title">Поиск</div>
-                    <form action="#" class="search-form flex column">
-                        <label for="area" class="flex">
-                            Регион
-                            <select id="area">
-                                <option value="1">Томская область</option>
-                                <option value="2">Кемеровская область</option>
-                                <option value="3">Алтайский край</option>
-                            </select>
-                        </label>
-                        <label for="data_do" class="flex">
-                            Дата заселения
-                            <input type="date" id="data_do">
-                        </label>
-                        <label for="data_to" class="flex">
-                            Дата выселения
-                            <input type="date" id="data_to">
-                        </label>
-                        <label for="count" class="flex">
-                            Количество человек
-                            <input type="number" id="count" min="1" max="5">
-                        </label>
-                        <button class="btn">Поиск</button>
-                    </form>
+                <form action="#" class="search-form flex column">
+                    <label for="area" class="flex">
+                        Регион
+                        <select id="area">
+                            <option value="1">Томская область</option>
+                            <option value="2">Кемеровская область</option>
+                            <option value="3">Алтайский край</option>
+                        </select>
+                    </label>
+                    <label for="data_do" class="flex">
+                        Дата заселения
+                        <input type="date" id="data_do">
+                    </label>
+                    <label for="data_to" class="flex">
+                        Дата выселения
+                        <input type="date" id="data_to">
+                    </label>
+                    <label for="count" class="flex">
+                        Количество человек
+                        <input type="number" id="count" min="1" max="5">
+                    </label>
+                    <button class="btn">Поиск</button>
+                </form>
             </div>
         </section>
-        <section class="page"></section>
-        <section class="page"></section>
+        <section id="actions" class="page flex column">
+            <div class="title">Акции</div>
+            <div class="description flex column">
+                <div class="action-list flex">
+                    <div class="box promotion flex column"
+                         style="background-image:url('assets/img/promotion/promotion1.jpg')">
+                        <div class="headline">
+                            Скидка до 60%. 2 или 3 дня проживания в доме-бочке (до 5 человек)
+                            в кемпинге «Дача Поддубного»
+                        </div>
+                    </div>
+
+                    <div class="box promotion flex column"
+                         style="background-image:url('assets/img/promotion/promotion2.jpg')">
+                        <div class="headline">
+                            Скидка до 51%. Уютное место самоизоляции для семьи в обустроенном
+                            кемпинге «Лесная поляна»
+                        </div>
+
+                    </div>
+                    <div class="box promotion flex column"
+                         style="background-image:url('assets/img/promotion/promotion3.jpg')">
+                        <div class="headline">Скидка до 50%. Изолируйся на месяц в обустроенном
+                            кемпинге «Бочки Диогена» со своей второй половинкой
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="subscribe" class="page flex column">
+            <div class="title">Подписка на закрытые акции</div>
+            <div class="box flex subscribe-form">
+                <input type="email">
+                <button class="btn">Подписаться</button>
+            </div>
+        </section>
+        <section id="reviews" class="page flex column">
+            <div class="title">Отзывы</div>
+            <div class="description flex column">
+                <div class="review-list flex">
+                    <div class="box review flex column">
+                        <div class="headline">
+                        </div>
+                    </div>
+                    <div class="box review flex column">
+                        <div class="headline">
+
+                        </div>
+                    </div>
+                    <div class="box review flex column">
+                        <div class="headline">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer class="footer">
+    <footer id="footer">
 
     </footer>
 </div>
