@@ -27,7 +27,9 @@
 
     --background-btn: #7c513f;
 }
-
+a {
+    color: var(--text-color);
+}
 .flex {
     display: flex;
 }
@@ -350,12 +352,44 @@
     width: 25vw;
     height: 50vh;
     box-shadow: -1rem 1rem var(--shadow-box);
+    padding: 1rem;
+    gap: 1rem;
 }
 
-/* reviews end */
+#reviews .review .headline {
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 30%;
+
+}
+#reviews .review .headline .ava {
+    border-radius: 50%;
+    background: center url("../img/reviews/review.png") no-repeat;
+    background-size: cover;
+    width: 5rem;
+    height:  5rem;
+}
+
+#reviews .review .headline .name {
+    border-bottom: var(--background-btn) solid;
+}
+
+    /* reviews end */
 /* footer start */
 #footer {
     flex-basis: 20vh;
-    background-color: var(--background-btn);
+    background-color: var(--background-header);
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+#footer .nav-footer {
+   gap: 2rem;
+}
+#footer .tel {
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
 }
 /* footer end */
